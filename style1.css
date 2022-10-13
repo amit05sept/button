@@ -1,0 +1,24 @@
+*{
+ background-color: aqua;
+}
+div.btn{
+height: 50px;
+width: 100px;
+background-color: orange;
+text-align: center;
+padding-top: 25px;
+margin: 50px;
+border-radius: 10px;
+box-shadow: rgba(0, 119, 143, 0.49) 5px 5px 5px;
+}
+div.btn:hover{
+    transform: translate(-10px,-10px);
+    box-shadow: rgba(0, 119, 143,0.397) 10px 10px 5px;
+    transition: 0.5s;
+}
+div.btn:active{
+    transform: translate(5px, 5px);
+    box-shadow: rgba(0, 119, 143,0.397) 2px 2px 5px;
+    background-color: rgb(229, 149, 2);
+    transition: 0.2s;
+}
